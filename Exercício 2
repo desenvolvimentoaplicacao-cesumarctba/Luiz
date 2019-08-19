@@ -1,0 +1,10 @@
+// exercicio 2 
+
+<?php
+       $c;
+	   $f;
+	   echo "Digite a temperatura em graus Celsius: ";
+	   $c = readline ();
+	   $f = (9 * $c + 160)/5;
+	   echo "\nO valor convertido em graus Fahrenheit é: $f";
+    ?>
