@@ -1,0 +1,13 @@
+// exercicio 5 
+   
+   <?php
+       $c;
+	   $f;
+	   $k;
+	   echo "Digite a temperatura em graus Fahrenheit: ";
+	   $f = readline ();
+	   
+	   $k = $f + 273.15; 
+	   
+	   echo "\nO valor convertido em Kelvin é: $k";
+    ?>
