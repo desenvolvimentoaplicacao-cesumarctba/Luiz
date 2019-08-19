@@ -1,3 +1,4 @@
+\\ Exercicio 1 
 <?php
     $tempo;
     $velocidade;
@@ -19,3 +20,105 @@
     
 
 ?>
+
+// exercicio 2 
+
+<?php
+       $c;
+	   $f;
+	   echo "Digite a temperatura em graus Celsius: ";
+	   $c = readline ();
+	   $f = (9 * $c + 160)/5;
+	   echo "\nO valor convertido em graus Fahrenheit é: $f";
+    ?>
+
+// exercicio 3
+
+<?php
+       $c;
+	   $f;
+	   echo "Digite a temperatura em graus Fahrenheit: ";
+	   $f = readline ();
+	   $c = ($f - 32);
+	   $c = $c * 5;
+	   $c = $c / 9;
+	   echo "\nO valor convertido em graus Celsius é: $c";
+    ?>
+    
+    // exercicio 4
+    
+    <?php
+       $c;
+	   $f;
+	   $k;
+	   echo "Digite a temperatura em graus Celsius: ";
+	   $c = readline ();
+	   
+	   $k = $c + 273.15; 
+	   
+	   echo "\nO valor convertido em graus Celsius é: $k";
+    ?>
+    
+   // exercicio 5 
+   
+   <?php
+       $c;
+	   $f;
+	   $k;
+	   echo "Digite a temperatura em graus Fahrenheit: ";
+	   $f = readline ();
+	   
+	   $k = $f + 273.15; 
+	   
+	   echo "\nO valor convertido em Kelvin é: $k";
+    ?>
+    
+   // exercicio 6 
+   
+   <?php
+     $peso;
+     $altura;
+     $imc;
+     
+     echo "Digite seu peso: ";
+     $peso = readline ();
+     echo "\nDigite sua altura: ";
+     $altura = readline ();
+     
+     $imc = $altura * $altura;
+     $imc = $peso/$imc;
+     
+     
+     if ($imc < 18.5) 
+     {
+         echo "\nAbaixo do peso";
+         
+     }
+     else if ($imc > 18.5 and $imc < 24.9)
+     {
+         echo "\nPeso normal";
+     }
+     
+     else if ($imc > 25 and $imc < 29.9)
+     {
+         echo "\nExcesso de peso";
+     }
+     
+     else if ($imc > 30 and $imc < 34.9)
+     {
+         echo "\nObesidade Grau I";
+     }
+     
+     else if ($imc > 35 and $imc < 39.9)
+     {
+         echo "\nObesidade Grau II";
+     }
+     
+     else if ($imc > 40)
+     {
+         echo "\nObesidade Grau III";
+     }
+     
+     echo "\nSeu imc é: $imc";
+    ?>
+   
