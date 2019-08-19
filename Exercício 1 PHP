@@ -1,0 +1,20 @@
+\\ Exercicio 1 
+<?php
+    $tempo;
+    $velocidade;
+    $distancia;
+    $litros_usados;
+    
+    echo "Digite o tempo gasto na viagem: ";
+    $tempo = readline();
+    echo "Digite sua velocidade média: ";
+    $velocidade = readline();
+    
+    $distancia = $tempo * $velocidade;
+    $litros_usados = number_format($distancia/12, 2);
+    
+    echo "O valor da velocidade média é: $velocidade" . PHP_EOL;
+    echo "O tempo gasto foi: $tempo". PHP_EOL;
+    echo "A distancia percorrida foi: $distancia" . PHP_EOL;
+    echo "Quantidade de litros de gasolina: $litros_usados" . PHP_EOL;
+   
