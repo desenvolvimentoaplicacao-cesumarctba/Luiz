@@ -1,0 +1,13 @@
+ // exercicio 4
+    
+    <?php
+       $c;
+	   $f;
+	   $k;
+	   echo "Digite a temperatura em graus Celsius: ";
+	   $c = readline ();
+	   
+	   $k = $c + 273.15; 
+	   
+	   echo "\nO valor convertido em graus Celsius é: $k";
+    ?>
