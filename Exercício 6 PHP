@@ -44,5 +44,5 @@
          echo "\nObesidade Grau III";
      }
      
-     echo "\nSeu imc é: $imc";
+     echo "\nSeu imc é: " . number_format ($imc, 2);
     ?>
